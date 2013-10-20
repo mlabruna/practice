@@ -8,3 +8,9 @@
 # OS Stuff
 *.DS_STORE
 *~
+
+#IntelliJ
+.idea/
+*.iml
+out/
+bin/
