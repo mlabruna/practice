@@ -1,4 +1,4 @@
-package tutorial6;
+package com.practice.udemy.tutorial6;
 
 public class Application60 {
 	public static void main(String[] args) {

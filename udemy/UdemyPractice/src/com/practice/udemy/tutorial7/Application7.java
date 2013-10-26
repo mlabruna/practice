@@ -1,3 +1,5 @@
+package com.practice.udemy.tutorial7;
+
 import java.util.Scanner;
 
 

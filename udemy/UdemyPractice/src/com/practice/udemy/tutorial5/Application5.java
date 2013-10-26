@@ -1,4 +1,4 @@
-package tutorial5;
+package com.practice.udemy.tutorial5;
 
 public class Application5 {
 	public static void main(String[] args) {

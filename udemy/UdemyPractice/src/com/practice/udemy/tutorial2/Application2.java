@@ -1,4 +1,6 @@
-public class Application {
+package com.practice.udemy.tutorial2;
+
+public class Application2 {
 	private static final String Raw_input = null;
 
 	public static void main(String[] args) {
