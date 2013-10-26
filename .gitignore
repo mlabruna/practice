@@ -9,6 +9,11 @@
 *.DS_STORE
 *~
 
+#Eclipse
+.settings/
+.project/
+.classpath/
+
 #IntelliJ
 .idea/
 *.iml
