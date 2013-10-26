@@ -11,8 +11,8 @@
 
 #Eclipse
 .settings/
-.project/
-.classpath/
+.project
+.classpath
 
 #IntelliJ
 .idea/
