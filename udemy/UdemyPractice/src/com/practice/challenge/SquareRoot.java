@@ -10,7 +10,15 @@ public class SquareRoot {
 		
 		float value = scanner.nextFloat();
 		
-		System.out.println(value*value);
-		
+		System.out.println(square(value));
+	}
+	
+	/**
+	 * Calculates the square of a given number.
+	 * @param double val - Number to square
+	 * @return double Number^2
+	 */
+	public double square(double val) {
+		return val * val;
 	}
 }
