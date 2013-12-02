@@ -28,6 +28,27 @@ public class DansApp {
 		*/
 		System.out.println(list);
 		
+		System.out.println("would you like to add anything else? ");
+		
+		if ("yes" != null) {
+			
+			System.out.println("What would you like to add to the list: ");
+			String newItem2 = input.nextLine();
+			
+			System.out.println(newItem2 + " have been added");
+			
+			List<String> list = new ArrayList<String>();
+			
+			list.add(newItem2);
+			assert newItem == list.get(0);
+			
+			/*List myList = new List();
+			myList<value>
+			*/
+			System.out.println(list);
+			
+		}
+		
 	}
 
 }
