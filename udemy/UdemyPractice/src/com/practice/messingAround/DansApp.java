@@ -31,21 +31,23 @@ public class DansApp {
 		System.out.println("would you like to add anything else? ");
 		
 		if ("yes" != null) {
-			
+			//input.hasNextLine();
 			System.out.println("What would you like to add to the list: ");
-			String newItem2 = input.nextLine();
+			String newItem1 = input.nextLine();
 			
-			System.out.println(newItem2 + " have been added");
+			System.out.println(newItem1 + " have been added");
 			
 			List<String> list = new ArrayList<String>();
 			
-			list.add(newItem2);
+			list.add(newItem1);
 			assert newItem == list.get(0);
 			
 			/*List myList = new List();
 			myList<value>
 			*/
 			System.out.println(list);
+			
+			//BUBBLE SORT
 			
 		}
 		

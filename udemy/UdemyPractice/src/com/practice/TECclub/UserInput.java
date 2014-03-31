@@ -6,7 +6,7 @@ public class UserInput {
 	public static void main(String[] args) {
 		
 		//created a new caluclator object
-		System.out.println("Would you like to add, subtract, multiply, or divide? ");
+		System.out.println("Would you like to +,-,*, or /? ");
 		Scanner scan = new Scanner(System.in);
 		String input = scan.nextLine();
 		//asked the function they would like to perform and saved it into the variable "input"
@@ -46,4 +46,4 @@ public class UserInput {
 		
 	}
 
-}
+

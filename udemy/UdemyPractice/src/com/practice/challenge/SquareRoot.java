@@ -7,18 +7,17 @@ public class SquareRoot {
 		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Please enter a number: ");
-		
 		float value = scanner.nextFloat();
-		
-		System.out.println(square(value));
+		System.out.println(value*value);;
 	}
 	
 	/**
 	 * Calculates the square of a given number.
 	 * @param double val - Number to square
 	 * @return double Number^2
-	 */
+	 
 	public double square(double val) {
 		return val * val;
+		*/
 	}
-}
+

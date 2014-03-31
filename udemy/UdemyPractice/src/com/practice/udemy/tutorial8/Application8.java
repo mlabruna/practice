@@ -20,7 +20,7 @@ public class Application8 {
 		*/	
 		int value = 0;
 		do {
-			System.out.println("Please enter an integer < 10: ");
+			System.out.println("Please enter an odd integer < 10: ");
 			value = scanner.nextInt();
 		}
 		while(value != 5);
